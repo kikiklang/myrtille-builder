@@ -1,0 +1,44 @@
+/************** ACTIONS SECTION **************/
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.copy-button {
+  display: none;
+}
+
+.restart-button,
+.go-button,
+.copy-button {
+  width: 200px;
+  height: 75px;
+  color: var(--text);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--scale-3);
+  text-decoration: none;
+  background: var(--main-color);
+  border: 10px solid var(--text);
+  transition: 200ms;
+}
+
+.restart-button:hover {
+  color: tomato;
+  border: 10px solid tomato;
+  cursor: pointer;
+}
+
+.go-button:hover {
+  color: rgb(108, 231, 108);
+  border: 10px solid rgb(108, 231, 108);
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  color: rgb(108, 192, 231);
+  border: 10px solid rgb(108, 192, 231);
+  cursor: pointer;
+}

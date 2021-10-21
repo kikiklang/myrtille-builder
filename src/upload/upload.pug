@@ -1,0 +1,12 @@
+section.upload.animate.fadeInUp
+  header.upload-header
+    h1.upload-title upload your SVG here
+
+  .upload-area
+    input#file.upload-input(type='file', name='file')
+    label.upload-label.animate(for='file')
+      img(src='../assets/icons/add.svg', alt='')
+    p.upload-file-name.hidden
+
+  .upload-warning.hidden
+    p.upload-warning--text test
