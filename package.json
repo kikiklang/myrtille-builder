@@ -70,10 +70,5 @@
         "format": "hsl"
       }
     }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format"
-    }
   }
 }
